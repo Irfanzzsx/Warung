@@ -111,6 +111,42 @@
     background-color: #ffe600;
 }
 
+#loader {
+   display: flex;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   background-color: #E9A319;
+   z-index: 1000;
+}
+
+.loader-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-inner::after {
+    content: "";
+    width: 150px;
+    height: 150px;
+    border: 15px solid white;
+    border-radius: 50%;
+    border-top-color: #ffe600 ;
+    animation: loading 0.75s ease infinite ;
+}
+
+@keyframes loading {
+    from { transform: rotate(0turn)}
+    to { transform: rotate(1turn)}
+}
+
+
 
 @media only screen and (max-width: 767px) {
     .img-pop {

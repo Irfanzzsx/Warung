@@ -230,6 +230,7 @@ function createForm(btn) {
 
 $(".btn1").on("click", () => {
     createForm(1);
+    $("#form").fadeIn("slow");
 });
 
 $(".btn2").on("click", () => {
@@ -244,10 +245,17 @@ $(".btn4").on("click", () => {
     createForm(4);
 });
 
+
 //closebtn
 function btn() {
-    $("#form").remove();
-    back.style.filter = "blur(0)";
-    
-
+    $("#form").fadeOut("slow", () => {
+        $("#form").remove();
+    });
+    document.querySelector(".back").style.filter = "blur(0px)";
 }
+
+//loader
+window.onload = function () {
+    $("#loader").fadeOut("slow");
+    
+} 
