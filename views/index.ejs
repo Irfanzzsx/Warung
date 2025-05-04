@@ -1,0 +1,70 @@
+<%- include("head.ejs") %>
+<body>
+
+    <div class="tophead container p-0 col-xl-12 col-lg-12">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="patch d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+           <img src="/unipi.png" width="50" alt="" srcset="">
+            <span class="warung fs-4 mx-2">Warung Unipi</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="/" class="nav-link active" >Home</a></li>
+            <li class="nav-item"><a href="product.ejs" class="nav-link">Produk</a></li>
+            <li class="nav-item"><a href="About.ejs" class="nav-link">About</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="bd-placeholder-img" width="100%" src="/seblak.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Menu Viral</h1>
+                <p class="opacity-75">Temukan deretan menu hits yang menggoda selera dan ramai dibicarakan di media sosial. Dari Martabak lumer sampai seblak pedas level baphomet, semua ada di sini! Kami sajikan informasi lengkap, ulasan jujur, dan rekomendasi tempat makan kekinian yang wajib kamu coba. Cicipi tren, nikmati sensasi, dan jadilah yang pertama tahu soal makanan paling hype saat ini.</p>
+                <p><a class="btn btn-lg" href="product.ejs/#seblak">Checkout?</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="bd-placeholder-img" width="100%" src="/es.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Kesegaran Tiada Banding</h1>
+                <p>Pernahkah berfikir tentang sesuatu yang menyegarkan?</p>
+                <p><a class="btn btn-lg" href="/product.ejs/#esCendol">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="bd-placeholder-img" width="100%" src="/martabak.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Profile Owner</h1>
+                <p>Menjadi lebih dekat dengan kami!</p>
+                <p><a class="btn btn-lg" href="">Views Profile</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    
+
+<%- include("footer.ejs") %>

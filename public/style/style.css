@@ -1,0 +1,125 @@
+.input {
+    text-align: center;
+}
+
+.warung {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: #E9A319;
+}
+
+.tophead {
+    background-color: white;
+    width: 100%;
+}   
+
+.nav-link{
+    color: #E9A319;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #E9A319;
+}
+.nav-link:hover{
+    color: #ffe600;
+}
+
+.btn {
+    background-color: #E9A319;
+    border-color: #ffe600;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #ffe600;
+    border-color: #E9A319;
+}
+
+.btn:visited{
+    background-color: #E9A319;
+}
+.btn:active{
+    background-color: #E9A319;
+}
+.nav-link:visited {
+    color: #E9A319
+    ;
+}
+
+.span {
+    font-weight: 900;
+    font-size: larger;
+}
+
+
+#form {
+    display: flex;
+    position: fixed !important;
+    top: 10% !important;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    z-index: 10;
+}
+
+#form > button{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 1%;
+    right: 25.5%;
+    width: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.form-body {
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    
+
+}
+
+.form-content {
+    width: 80%;
+    height: 90%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.img-pop {
+    width: 60%;
+    border-radius: 5px;
+
+}
+
+.btn-submit {
+    background-color: #E9A319;
+    border: 3px solid;
+    border-radius: 2px;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #ffe600;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .img-pop {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .img-pop {
+        width: 100%;
+    }
+}
